@@ -1,0 +1,6 @@
+@CICDExapmle_CreateNugetPackage_HostAddress = http://localhost:5071
+
+GET {{CICDExapmle_CreateNugetPackage_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
