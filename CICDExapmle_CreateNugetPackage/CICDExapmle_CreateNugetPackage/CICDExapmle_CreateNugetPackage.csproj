@@ -5,6 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
+	 <IsPackable>true</IsPackable>
+	 
+	 <PackageId>CICDExapmle_CreateNugetPackage</PackageId>
+	 <Version>1.0.0-alpha.4</Version>
+	 <Authors>Piyush Garg</Authors>
   </PropertyGroup>
 
   <ItemGroup>
