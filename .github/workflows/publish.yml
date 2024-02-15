@@ -7,6 +7,7 @@ jobs:
     name: Publish
     runs-on: ubutu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Pack
         run: |
           dotnet pack ./CICDExapmle_CreateNugetPackage/CICDExapmle_CreateNugetPackage -c  release -o .output
